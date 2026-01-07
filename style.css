@@ -1,30 +1,74 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f6f6f6;
+  background: #f7f7f7;
   text-align: center;
+  margin: 0;
   padding: 20px;
 }
 
-h1 {
+.titulo {
   color: #c00000;
   text-transform: uppercase;
 }
 
-.produtos {
-  display: flex;
-  justify-content: center;
+.subtitulo {
+  margin-bottom: 30px;
 }
 
-.produto {
-  background: white;
-  width: 260px;
-  padding: 15px;
+.card {
+  background: #ffffff;
+  max-width: 360px;
+  margin: auto;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.imagem-principal {
+  width: 100%;
+  border-radius: 8px;
 }
 
 .preco {
+  color: #0066ff;
   font-size: 20px;
   font-weight: bold;
-  color: #1f7ae0;
+}
+
+.descricao {
+  font-size: 14px;
+}
+
+details {
+  margin-top: 15px;
+  text-align: left;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #0066ff;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.galeria img {
+  width: 100px;
+  border-radius: 6px;
+}
+
+.botao-whatsapp {
+  display: block;
+  background: #25d366;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
 }
