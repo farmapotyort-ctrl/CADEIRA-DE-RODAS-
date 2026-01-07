@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #1f7ae0;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+}
+
+.produto {
+  background: white;
+  width: 260px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f7ae0;
+}
