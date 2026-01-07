@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-  color: #1f7ae0;
+  color: #c00000;
+  text-transform: uppercase;
 }
 
 .produtos {
